@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    ;
+}
+
+.body {
+    background-color: #B2B8C8;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.container {
+    background-color: white;
+    width: 60%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: .5em;
+    padding: 1em;
+}
+
+/*   left side style section */
+
+.left-box {
+    border-radius: .4em;
+    padding: 1em;
+    background-color: #F3F5F9;
+}
+
+.min-box {
+    height: 2em;
+    width: 2em;
+    background-color: #3C37FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .4em;
+}
+
+.min-box .small-box {
+    height: .7em;
+    width: .7em;
+    background-color: white;
+    border-radius: 100%;
+
+}
+
+.div-head {
+    padding: 1.2em 0;
+}
+
+.left-text {
+    line-height: 1.3;
+}
+
+.left-para {
+    line-height: 1.6;
+    padding: 1em 0 2em;
+    font-weight: 100;
+    color: gray;
+}
+
+.left-footer {
+    background-color: #2D3345;
+    color: white;
+    color: #E2E5F2;
+    padding: 1em;
+    border-radius: .5em;
+}
+
+.left-footer-head {
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.left-img {
+    display: flex;
+    padding: 1em;
+}
+
+.left-img-box img {
+    height: 30px;
+    border-radius: 50%;
+    width: 30px;
+}
+
+.left-img-content {
+    padding: 0 .5em;
+}
+
+.left-ig-h5 {
+    color: hsl(0, 0%, 90%);
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.left-ig-h6 {
+    font-weight: 500;
+    color: #E2E5F2;
+}
+
+
+
+/* RIGHT content style designing */
+
+.right-box {
+    padding: 1em;
+}
+
+.right-head {
+    text-transform: capitalize;
+    margin: 0;
+    padding-top: .5em;
+}
+
+.right-head-footer {
+    color: #2E3446;
+    font-weight: 600;
+    /* letter-spacing: 1px; */
+}
+
+
+
+.input-group {
+
+    position: relative;
+    margin: .5em 0;
+}
+
+.input-group .input-box {
+    width: 100%;
+    outline: none;
+    border: 1px solid hsl(0, 0%, 86%);
+    border-radius: .3em;
+    padding: .6em;
+}
+
+.span {
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: .4em 0;
+    color: hsl(0, 0%, 50%);
+}
+
+button {
+    width: 100%;
+    background-color: #3C37FF;
+    border: none;
+    outline: none;
+    padding: .6em;
+    margin-top: .6em;
+    color: white;
+    text-transform: capitalize;
+    font-weight: bold;
+    border-radius: .3em;
+}
+
+.right-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.right-footer .right-footer-para {
+    color: hsl(0, 0%, 40%);
+    /* text-transform: capitalize; */
+}
+.right-footer-para {
+    margin-top: 1em;
+}
+
+.span70 a{
+    text-decoration: none;
+    
+}
+/* .span:link{
+    text-decoration: none;
+}
+.span:visited{
+    text-decoration: none;
+}
+.span:hover{
+    text-decoration: none;
+}
+.span:active{
+    text-decoration: none;
+} */
+
+.right-footer{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+p{
+    color: red;
+    font-size: 15px;
+}
+#highlighted{
+        background-color: rgb(121, 153, 153);
+        font-weight: 700;
+}
+.button50{
+    height: 3em;
+    width:6em;
+    margin-left: 48em;
+    background-color: #111827;
+   
+}
+.table1{
+    background-color: rgb(157, 157, 144);
+    height:100vh;
+    width:100vw;
+    /* display:flex;
+    justify-content: center;
+    align-items: center; */
+    border-collapse:collapse;
+    border:4px solid black;
+    
+}
+.table1 th{
+    padding:12px 15px;
+     /* border:1px solid black; */
+     text-align: center;
+     /* border-collapse:collapse; */
+}
+.table1 td{
+    padding:12px 15px;
+    
+    text-align: center;
+    /* border-collapse:collapse; */
+    /* border:2px solid black; */
+}
+table,th,td{
+    border-collapse:collapse;
+    border:2px solid black;
+    border-width: 0.2em;
+   
+
+}
+table{
+    margin-top: 7em;
+    margin-left: 21em;
+    border:2px solid black;
+    width: 40em;
+}
